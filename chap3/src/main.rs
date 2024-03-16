@@ -1,6 +1,6 @@
 use std::io;
-fn add(x:i32,y:i32) -> i32{
- return x+y
+fn add(x: i32, y: i32) -> i32 {
+    return x + y;
 }
 
 fn main() {
@@ -44,21 +44,40 @@ fn main() {
     //     .trim()
     //     .parse()
     //     .expect("Error in parsing");
-   // println!("{}", a[string]);
+    // println!("{}", a[string]);
     // println!("{}",add(2,2));
-   // for i in (1..5).rev(){
-   //     println!("{}",i);
-   // } 
+    // for i in (1..5).rev(){
+    //     println!("{}",i);
+    // }
     // Program to convert farenheit to celsius and other way round
-    let mut x :String = String::new();
+    // let mut x = String::new();
 
-    io::stdin()
-        .read_line(&mut x)
-        .expect("err");
+    // io::stdin().read_line(&mut x).expect("err");
 
+    // let mut x: i32 = x.trim().parse().expect("err");
+    // x = (x - 32) * 5 / 9;
+    // println!("{}", x);
 
-    let mut x: i32 = x.trim().parse().expect("err");
-    x = (x-32)*5/9;
-    println!("{}",x);
+    // let mut count = 0;
+    // 'counting_up: loop {
+    //     println!("count = {count}");
+    //     let mut remaining = 10;
+
+    //     loop {
+    //         println!("remaining = {remaining}");
+    //         if remaining == 9 {
+    //             break;
+    //         }
+    //         if count == 2 {
+    //             break 'counting_up;
+    //         }
+    //         remaining -= 1;
+    //     }
+
+    //     count += 1;
+    // }
+    // println!("End count = {count}");
+    // for i in 1..10 {
+    //     println!("{}", i)
+    // }
 }
-
