@@ -16,6 +16,7 @@ pub fn first_word(s: String) -> String {
     }
     return s[..].to_string();
 }
+
 fn main() {
     // let mut s = String::from("hello");
     // s.push_str(" world");
@@ -39,4 +40,9 @@ fn main() {
     // let a = [1, 2, 3, 4, 5];
     // let slice = &a[..3];
     // println!("{:?}", slice);
+    // let mut s = String::from("value");
+    // let refs = &mut s;
+    // println!("{}", s);
+    // *refs = String::from("gell");
+    // println!("{}", refs);
 }
